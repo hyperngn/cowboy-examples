@@ -11,6 +11,9 @@ defmodule Hello.Application do
       # {Hello.Worker, arg}
     ]
 
+    # start the server, not the best way, used for simplicity
+    Hello.start()
+
     # See https://hexdocs.pm/elixir/Supervisor.html
     # for other strategies and supported options
     opts = [strategy: :one_for_one, name: Hello.Supervisor]
