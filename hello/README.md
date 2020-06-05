@@ -2,6 +2,8 @@
 
 A Hello world example of Cowboy!
 
+This example intentionally does not use Supervisors to keep things simple.
+
 ## Usage
 
 1. Install deps: `mix deps.get`
